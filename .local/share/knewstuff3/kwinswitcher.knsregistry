@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="211">
+  <name>MediumRoundedDark</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>adhe</author>
+  <homepage>https://store.kde.org/p/1303919</homepage>
+  <licence></licence>
+  <version>0.3</version>
+  <rating>58</rating>
+  <downloads>58861</downloads>
+  <installedfile>/home/manjaro/.local/share/kwin/tabbox/MediumRoundedDark</installedfile>
+  <id>1303919</id>
+  <releasedate>2019-09-12</releasedate>
+  <summary>Windows Switcher rounded with a perfect size of icons :)&lt;br />
+# Installation:&lt;br />
+Download, extract and place the content in ~/.local/share/kwin/tabbox/&lt;br />
+or by system configurations &lt;br />
+[  SystemSettings &amp;gt; WindowManagement &amp;gt; TaskSwitcher &amp;gt; Get New Task Switcher. ]</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/53/17/49/1303919/54a0743d3ff7b450c5ef7bb2e50e3db906b8.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/53/17/49/1303919/54a0743d3ff7b450c5ef7bb2e50e3db906b8.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1NjgzMDQwNzQiLCJvIjoiMSIsInMiOiJmYTk2YjY0YmE2YjJjODIwOWZjYzJjYTM2ZWZkMTU1ZTk3ODIzM2U4MTJjOGMyNjg2ZGMwYmJlMThhNzE5YWQxNWEyODc0ZTA4NDJiNGIzMmFmZDg5NGY0ZDViOWFjN2ZjOTA0NWMyNjJjNDhiNzJlYmQzOWI5ZDRhNjJjMTE1NSIsInQiOjE2Nzc5NzE2MDQsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.jCeTJ7Z1wBiSW7sKpflNAPypTWHh95QXV57Q4IKOw1Y/MediumRoundedDark.tar.gz</payload>
+  <tags>linux,gplv3,switcher,plasma,unix,original-product</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

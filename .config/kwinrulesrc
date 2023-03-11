@@ -1,0 +1,30 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=Параметри нових вікон
+minsize=1,1
+minsizerule=2
+types=1
+
+[2]
+Description=tile
+minsize=1,1
+minsizerule=2
+types=1
+wmclasscomplete=true
+
+[General]
+count=2
+rules=1,2
+
+[b49d9da0-1941-478b-81c9-62a81a4931f0]
+Description=tile
+minsizerule=2
+types=1
+wmclasscomplete=true
+
+[d55f553c-a329-4c00-beda-5b25442bd7c4]
+Description=Параметри нових вікон
+minsizerule=2
+types=1

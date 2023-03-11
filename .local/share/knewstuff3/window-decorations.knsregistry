@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="114">
+  <name>Breezemite</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>andreyorst</author>
+  <homepage>https://store.kde.org/p/1169286</homepage>
+  <licence></licence>
+  <version>0.3.0</version>
+  <rating>83</rating>
+  <downloads>238933</downloads>
+  <installedfile>/home/manjaro/.local/share/aurorae/themes/Breezemite/*</installedfile>
+  <installedfile>/home/manjaro/.local/share/aurorae/themes/Breezemite_dark/*</installedfile>
+  <id>1169286</id>
+  <releasedate>2017-09-03</releasedate>
+  <summary>Aurorae theme for KDE 5.8 and higer, that mimics Yosemite window decoration, but with Breeze colors to match Breeze window theme. Based on Yosemite v0.1&lt;br />
+&lt;br />
+omg, thanks for 10k downloads everyone</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/45/89/63/1169286/ad64b5117178c30b56db09ab3ae9ea3905ee.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/45/89/63/1169286/ad64b5117178c30b56db09ab3ae9ea3905ee.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE0ODk2OTYyMzMiLCJvIjoiMSIsInMiOiIzNTMxYjU3OTYwNTNmMzgyYzM1ZjkwMGFkMGM3ZDFkODM5YTM0ZDA5YjAwYmJjYTZkODc4OTlhMTJlZTg3YjUwYzg2ZGY1ZjVlOGRmYjQ4NWZlYjAxMjk4MjA1NTYwMmZmZDY2ZTNhMzE3ZDU4ZGY2ZmJhMjYzYmY2YmIwMjY4MyIsInQiOjE2Nzc3MTMzNjMsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4xNjkifQ.TnVDAEmX6e41ZewAjfdwWDBG5R5AUKAKZJawJ6rmB4E/Breezemite-aurorae.tar.xz</payload>
+  <tags>kde,linux,unix,theme,plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="114">
+  <name>Otto Aurorae Theme</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>jomada</author>
+  <homepage>https://store.kde.org/p/1414937</homepage>
+  <licence></licence>
+  <version>1.5</version>
+  <rating>57</rating>
+  <downloads>5350</downloads>
+  <installedfile>/home/manjaro/.local/share/aurorae/themes/Otto/*</installedfile>
+  <id>1414937</id>
+  <releasedate>2023-01-28</releasedate>
+  <summary>Aurorae theme for Otto Plasma theme https://store.kde.org/p/1358262&lt;br />
+&lt;br />
+Based on McMojave by Vinceliuice https://github.com/vinceliuice/McMojave-kde/tree/master/aurorae</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/43/73/13/1414937/aurorae-logo.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/43/73/13/1414937/aurorae-logo.jpg</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzQ5MTE4OTQiLCJvIjoiMSIsInMiOiIzNDA1ZjM1MGIzN2M4OGMyYzMzNGE4N2MzODMyZGVjYmI3NzYxYWY4MzYyNjQ5ODA0NzQ0NTk4NjQ3MzA0NjQ4NzlkZTRlNDE4ZjU3MzY0NDljNGU3OWI1Zjk3YjViYTMwYzBmOTkyNTVhMTljY2ZlMWNhZTg5MTFiOTBhNWFmMiIsInQiOjE2Nzc5NzI5MzEsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.U61hcaiNnireb1TMTIEg4AewF9SuGN22l-s_7ARSFXY/Otto.tar.gz</payload>
+  <tags>linux,kde,lgplv3,unix,plasma,theme</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="114">
+  <name>Arc Dark KDE</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>x-varlesh-x</author>
+  <homepage>https://store.kde.org/p/1167637</homepage>
+  <licence></licence>
+  <version>20220603</version>
+  <rating>66</rating>
+  <downloads>50202</downloads>
+  <installedfile>/home/manjaro/.local/share/aurorae/themes/Arc-Dark/*</installedfile>
+  <id>1167637</id>
+  <releasedate>2022-06-03</releasedate>
+  <summary>Arc KDE - This is a port of the popular GTK theme Arc for Plasma 5 desktop with a few additions and extras.&lt;br />
+RECOMMEND USE THIS CUSTOMISATION WITH KVANTUM ENGINE:&lt;br />
+https://www.opendesktop.org/p/1005410/&lt;br />
+https://github.com/tsujan/Kvantum/releases</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/43/80/78/1167637/screenshot-20220603-091408.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/43/80/78/1167637/screenshot-20220603-091408.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NTQyMzU5NTgiLCJvIjoiMSIsInMiOiI3OGRkOTEzNmMyMDk2MTg1MjI4YTc3NWU4YjdhMmFjMmM4NDU5MWYzZTEyNDM0YjFhOGEzMmQ5YzUxYTUyODM1NDU1Njg4ZjYzZjE0MGI0NjNhODM2OTk1ODAyMzJmNTJiMTJkMDMyZmE0ZjVhODVhMzZhZDZlOGE3YjE2MWQzNiIsInQiOjE2Nzc5NzQxMzMsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.j5C0QQI9rmCnwYWouFRSHsf7sDPcgQWTFUjZ2chizRY/Arc-Dark.tar.gz</payload>
+  <tags>plasma,unix,theme,linux,kde,gplv3,dark,ark,original-product</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="114">
+  <name>Nordic KDE</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>eliverlara</author>
+  <homepage>https://store.kde.org/p/1326274</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>72</rating>
+  <downloads>224377</downloads>
+  <installedfile>/home/manjaro/.local/share/aurorae/themes/Nordic/*</installedfile>
+  <id>1326274</id>
+  <releasedate>2020-07-01</releasedate>
+  <summary>Nordic is a dark theme created using the awesome &lt;a href="https://github.com/arcticicestudio/nord" target="_blank" rel="nofollow">Nord&lt;/a> color palette.&lt;br />
+&lt;br />
+&lt;br />
+Suggested settings: &lt;br />
+&lt;br />
+&lt;a href="https://www.pling.com/p/1326896/" target="_blank" rel="nofollow"> Nordic Plasma...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/36/61/48/1326274/2159613d6404b04b0ebb587b1c3734aeb2fb1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/36/61/48/1326274/2159613d6404b04b0ebb587b1c3734aeb2fb1.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTM2MzI3NjEiLCJvIjoiMSIsInMiOiI0ZmM0MjBkOGRjYzkxY2MzNmUxY2NjMWVkYmMyZWYxN2U3MWJkZjM2Zjk5Mjc0Nzg3ZjY2MDI4OTUyNWY4N2I4OTE0Yzg5NDNiNjViYmI1NzMxMjhmN2Y3ZDQ4ZDdmYmIwOTBjOWQzNTgyYTk1ZWRlYzE5NzM0ZDc1NDM0ZTE3NCIsInQiOjE2Nzc3MTMxNzMsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4xNjkifQ.dFHY3EjwrIKImfx94v7C84-OGFStNhAxIhCI-UoxfOU/Nordic.tar.xz</payload>
+  <tags>kde,linux,gplv3,unix,theme,plasma</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

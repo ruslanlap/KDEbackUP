@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="399">
+  <name>Plasma Fancy Clock</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>anoneemouse</author>
+  <homepage>https://store.kde.org/p/1174881</homepage>
+  <licence></licence>
+  <version>5.1</version>
+  <rating>67</rating>
+  <downloads>50609</downloads>
+  <installedfile>/home/manjaro/.local/share/plasma/plasmoids/org.kde.fancyclock</installedfile>
+  <id>1174881</id>
+  <releasedate>2021-01-25</releasedate>
+  <summary>A customizable clock for your desktop!&lt;br />
+Change: &lt;br />
+- Fonts&lt;br />
+- Colors&lt;br />
+- Letter spacing&lt;br />
+- Opacity</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/13/89/41/1174881/022092b4afa684b5d36847553ef0c789b3bb8da025cdc9c79d6e19d9a7017a1e6ac1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/13/89/41/1174881/022092b4afa684b5d36847553ef0c789b3bb8da025cdc9c79d6e19d9a7017a1e6ac1.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MTE1OTk0NjAiLCJvIjoiMSIsInMiOiJjMmU0ZGIyMzUwODk2ZTFlZjMyMGVjOTFhYzYwZGUzZGQ4NTk2MjZjNmQ5MTI1NWVkY2JiNmQxNGUxZGQzYmU2MDBiYzMwNGY1ZThiYWVmMTRkZmIwNDE3MGUyNGE0MjQyMDU4YzQwZjkyOTM2M2U3YzcyOGRhMThhOTY5NzM5NyIsInQiOjE2Nzc5ODIxNTYsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.NBg3x_ytdsEVWpzIRUqqr5vp95-o5xsRwpHol9HCGfg/org-20210125182445.kde.fancyclock.tar.gz</payload>
+  <tags>gplv2,linux,clock,extension,kde,unix,plasma,plasma##majorversion=5,widget,original-product</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="399">
+  <name>Better inline clock</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>marianarlt</author>
+  <homepage>https://store.kde.org/p/1245902</homepage>
+  <licence></licence>
+  <version>3.1</version>
+  <rating>82</rating>
+  <downloads>247773</downloads>
+  <installedfile>/home/manjaro/.local/share/plasma/plasmoids/org.kde.plasma.betterinlineclock</installedfile>
+  <id>1245902</id>
+  <releasedate>2020-06-23</releasedate>
+  <summary>The hottest clock around!&lt;br />
+· Formats not found in any other clock, including custom!&lt;br />
+· Disable the separator with a simple check box!&lt;br />
+· Option for manual font size!&lt;br />
+· Correctly calculated width at any time and date!&lt;br />
+· Manual spacing and offsetting!&lt;br />
+·...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/44/96/51/1245902/2e3d478b3cdfe43f6c902d3c667f6e43060d.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/44/96/51/1245902/2e3d478b3cdfe43f6c902d3c667f6e43060d.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTI5NjY2NTUiLCJvIjoiMSIsInMiOiIwNTBmYzkwZmZlOGJhYmZkZWFjY2Y1MjM1NTk5NmFhMWZmNGI2NmQ2NGRhNzg2ZWQzOWVlOWYyNzhiMDc1MDRmNjJlMzk3ZDUwNmEwMGUwNTIxNDYwZDIyMjI4MDA4NmFkYzNjM2RlMjQ4MjRhYWEzMTUyODY5MWY4OTVmMzU1NyIsInQiOjE2Nzc5ODIxMzksInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.ynwmhd1sqQMlE6b_FN3RnNH3Q6D_n03PMh_C7X8RnVA/betterinlineclock.tar.gz</payload>
+  <tags>widget,plasmoid,plasma##majorversion=5,plasma,unix,modification-product,extension,gplv3,kde,linux,clock</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="112">
+  <name>Otto Color-schemes</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>jomada</author>
+  <homepage>https://store.kde.org/p/1358259</homepage>
+  <licence></licence>
+  <version>1.3</version>
+  <rating>77</rating>
+  <downloads>5490</downloads>
+  <installedfile>/home/manjaro/.local/share/color-schemes/Otto.colors</installedfile>
+  <id>1358259</id>
+  <releasedate>2023-01-28</releasedate>
+  <summary>Color scheme for Otto plasma theme  https://store.kde.org/p/1358262/</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/43/73/13/1358259/b391d27a6a69d2955851b106d1e2baf612694f7d1cfa7126643773d79c8362bf400e.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/43/73/13/1358259/b391d27a6a69d2955851b106d1e2baf612694f7d1cfa7126643773d79c8362bf400e.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzQ5MTE3MDIiLCJvIjoiMSIsInMiOiI4NTcwYzkzMjNkMDRjN2FkMWIzNWU3Nzg3NGQxNmMxZmFhM2U0MWJkMjdlMGFjZTFjMzA5NDYzN2Q4MTFlOWQ0NTYyMjc5MDRhZjA4N2Q1MWQ2YzRhNzNkOGZlYzA0N2JhZTNiYjc3YmRkZTU0Njg5MGIzY2VmNzFjODMzNjZiMiIsInQiOjE2Nzc5NzI5MjcsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.ofCeSRIjarXrbo2NtLQdqwQdW_Au7ROAZ0OLiEC9WT0/Otto.colors.tar.gz</payload>
+  <tags>plasma,theme,unix,original-product,kde,colorscheme,color-schemes,gplv3,linux</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="112">
+  <name>Nordic darker KDE</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>eliverlara</author>
+  <homepage>https://store.kde.org/p/1629062</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>97533</downloads>
+  <installedfile>/home/manjaro/.local/share/color-schemes/NordicDarker.colors</installedfile>
+  <id>1629062</id>
+  <releasedate>2021-10-28</releasedate>
+  <summary>Nordic darker coloscheme for KDE</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/36/61/48/1629062/e993b51bc83f33e12484d08c32ba614be041012bba9ee85e019a3709330ca12d14a2.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/36/61/48/1629062/e993b51bc83f33e12484d08c32ba614be041012bba9ee85e019a3709330ca12d14a2.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MzU0NTQ5NzAiLCJvIjoiMSIsInMiOiIyMTBjZDg4YzIzOTBkMjkwNzhiYTliMDUzMTM4MTUzMGQwZjMxMjk4N2M1Nzk1ZTJiM2VmZjBjMGRlMmI1ZjA1MTkxYjc1MDk0Yzk5ZjUwNWEyMmI1ZjFmNzk4ZGMwODlhMjk0OTBiNjFlNzUzNDJiZjg3OGUzNWE5MGZiMjMzNiIsInQiOjE2Nzc3MTM5NzMsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4xNjkifQ.4jbZE6E0nryyca69AEhZKJZjEu4ngfgfO7rL948Juak/NordicDarker.colors</payload>
+  <tags>linux,colorscheme,kde,gplv3,plasma,unix,theme</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="112">
+  <name>WhiteSur Color</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/1398831</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>109932</downloads>
+  <installedfile>/home/manjaro/.local/share/color-schemes/WhiteSurDark.colors</installedfile>
+  <installedfile>/home/manjaro/.local/share/color-schemes/WhiteSur.colors</installedfile>
+  <installedfile>/home/manjaro/.local/share/color-schemes/WhiteSurAlt.colors</installedfile>
+  <id>1398831</id>
+  <releasedate>2022-02-11</releasedate>
+  <summary>MacOS big sur theme for kde plasma</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/32/24/44/1398831/129887a42b22bb843754c81631903b901c02.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/32/24/44/1398831/129887a42b22bb843754c81631903b901c02.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NDQ1OTA4OTEiLCJvIjoiMSIsInMiOiJlNjdkMGE0ZTk2YTMzYzY2MjQ4OTg3ODFlMzk4MTc1OGM2MjdjOTQ0ZTMzMDYxZDFkNjRlNWVkMTBjMTdjZjdmNTZjNGExODZlMjMyZjhmYjk3N2E5NTYzZTY0YWYzOWZmMTU5ZmJhZGY0MmJkZjg3Mzg0YWRlZDIwOTYyYTdmOSIsInQiOjE2Nzc5ODA2NjQsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.eJWMOjgDaFKDAqK4tCZRa9F68Oo8SLOGNsLC9eMQEGM/WhiteSur.tar.gz</payload>
+  <tags>unix,plasma,theme,kde,colorscheme,linux,gplv3,original-product</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="112">
+  <name>Adapta KDE</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>x-varlesh-x</author>
+  <homepage>https://store.kde.org/p/1191689</homepage>
+  <licence></licence>
+  <version>20170925</version>
+  <rating>69</rating>
+  <downloads>220946</downloads>
+  <installedfile>/home/manjaro/.local/share/color-schemes/AdaptaNokto.colors</installedfile>
+  <installedfile>/home/manjaro/.local/share/color-schemes/Adapta.colors</installedfile>
+  <id>1191689</id>
+  <releasedate>2017-09-25</releasedate>
+  <summary>Adapta KDE - This is a port of the popular GTK theme Adapta for Plasma 5 desktop with a few additions and extras.&lt;br />
+Breeze engine not support!!!&lt;br />
+USE THIS CUSTOMIZATION WITH KVANTUM ENGINE:&lt;br />
+https://www.opendesktop.org/p/1005410/&lt;br />
+https://github.com/tsujan/Kvantum/releases</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/43/80/78/1191689/76d5353fa081571df5723ae32be3d548d6c4.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/43/80/78/1191689/76d5353fa081571df5723ae32be3d548d6c4.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1MDYzMTc2NTciLCJvIjoiMSIsInMiOiJlNDI0NGJkYzgwMDRkNzBlMDcyN2Y4MWI0YWZjOTYyZTcyZDdkNzBhMzM4MTRjMGEzOTUyZGUxNDA2N2RmZWIwNDBhYTljN2E4NDliY2EzNWRlMjE1ODdlNzUyOGRkOWFkM2M0NjlmOTRiYjllNWY0NTYxMWU5NmZiMmU1ZDczZSIsInQiOjE2Nzc5ODA1ODcsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.AiWoCbKK2PrPBExgArbRcXuraJISNNG5saXS4wj9sPk/color-schemes.tar.gz</payload>
+  <tags>gplv3,kde,colorscheme,linux,unix,theme,plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="112">
+  <name>Nordic KDE</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>eliverlara</author>
+  <homepage>https://store.kde.org/p/1326271</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>70</rating>
+  <downloads>68176</downloads>
+  <installedfile>/home/manjaro/.local/share/color-schemes/Nordic.colors</installedfile>
+  <id>1326271</id>
+  <releasedate>2021-10-28</releasedate>
+  <summary>Nordic is a dark theme created using the awesome &lt;a href="https://github.com/arcticicestudio/nord" target="_blank" rel="nofollow">Nord&lt;/a> color palette.&lt;br />
+&lt;br />
+&lt;br />
+Suggested settings: &lt;br />
+&lt;br />
+&lt;a href="https://store.kde.org/p/1327093/" target="_blank" rel="nofollow"> Nordic...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/36/61/48/1326271/2159613d6404b04b0ebb587b1c3734aeb2fb1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/36/61/48/1326271/2159613d6404b04b0ebb587b1c3734aeb2fb1.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MzU0NTQ5MTkiLCJvIjoiMSIsInMiOiI0ZTQ2MWY3MmM4NjIyZGQ3MDA1NWUzYzFhNmRmY2Q4MGU0MWUwNzg2ZDlkZDBkZDZjMjM5N2JhZTVkODI0MDQ5Yjk3ZWVkN2Q4YzNhY2Q1ZGZlNDUxMmRhOGQ0ODhjNmVkYzNiYWU3MzkzZmY2ODZhYWJiNDJjMTcxNzk0NDU4MCIsInQiOjE2Nzc3MTM5MzIsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4xNjkifQ.nXXFe5G8x86xeybDp5dI2BJwPI1DqGN26wtpKgGfzFo/Nordic.colors</payload>
+  <tags>gplv3,kde,linux,colorscheme,unix,plasma,theme</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>
