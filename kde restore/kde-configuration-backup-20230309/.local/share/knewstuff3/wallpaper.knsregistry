@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="299">
+  <name>Otto wallpaper</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>jomada</author>
+  <homepage>https://store.kde.org/p/1358263</homepage>
+  <licence></licence>
+  <version>1.0</version>
+  <rating>58</rating>
+  <downloads>26385</downloads>
+  <installedfile>/home/manjaro/.local/share/wallpapers/Otto.png</installedfile>
+  <id>1358263</id>
+  <releasedate>2020-02-08</releasedate>
+  <summary>Wallpaper for Otto plasma theme  https://store.kde.org/p/1358262/</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/43/73/13/1358263/otto.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/43/73/13/1358263/otto.jpg</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1ODExODgyMDUiLCJvIjoiMSIsInMiOiIwZjYwMTMwNWM0MGZjOWM4NDFiOTZiNTU4MzY3MGE3MDMzZTU4MTE4YmYxMGYxMDEwMWFkY2Y1OTI4MTI2MzRhMTI2MWE5MjU5MGMwZDAwNDNkOTM3Zjg3M2I3MGQ1NWZjZWM0MzVlOGIzZGY0NmU3M2E4Y2M1ODRlOGFiZTk2MCIsInQiOjE2Nzc5NzI5MzksInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.hMV_mEs61NXSKtkZLdrssCpFcHBCmW8_UTJtpRfDDI4/Otto.png</payload>
+  <tags>gplv3,kde,plasma,artwork,wallpaper</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

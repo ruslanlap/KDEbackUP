@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="104">
+  <name>Nordic bluish solid</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>eliverlara</author>
+  <homepage>https://store.kde.org/p/1810707</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>17311</downloads>
+  <installedfile>/home/manjaro/.local/share/plasma/desktoptheme/Nordic-bluish-solid</installedfile>
+  <id>1810707</id>
+  <releasedate>2022-08-26</releasedate>
+  <summary>Nordic is a dark theme created using the awesome &lt;a href="https://github.com/arcticicestudio/nord" target="_blank" rel="nofollow">Nord&lt;/a> color palette.&lt;br />
+&lt;br />
+&lt;br />
+Suggested settings: &lt;br />
+&lt;br />
+&lt;a href="https://store.kde.org/p/1326272/" target="_blank" rel="nofollow">Nordic bluish...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/36/61/48/1810707/screenshot-20220529-162652.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/36/61/48/1810707/screenshot-20220529-162652.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NjE1NDcxMDgiLCJvIjoiMSIsInMiOiJkNTMxMmE1OWM1YTFiODcyNTY2NDkzNTM4OGUxM2UwNWVkNWM1ZTIzNzA1OTdmYzE2Yzk1Y2EwNzU1YzE3Y2ZkYmFjZGE1MzU5ZjEzOWI2MWY2OTFmNjM2NzRiYWZlYjA1NjcwN2YzYmM4ZWE5ZGViZWQ5NjU1NDQzZTY1ZTgwOSIsInQiOjE2Nzc5NzQ0OTgsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.eUaP6FhkdtyokNAnQuK_Z_J3n7Vu8-tsjefIpoZQnNk/nordic-bluish-solid.tar.xz</payload>
+  <tags>cc-by-sa,theme,unix,plasma,kde,linux</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="104">
+  <name>Otto</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>jomada</author>
+  <homepage>https://store.kde.org/p/1358262</homepage>
+  <licence></licence>
+  <version>2.0</version>
+  <rating>84</rating>
+  <downloads>6854</downloads>
+  <installedfile>/home/manjaro/.local/share/plasma/desktoptheme/Otto</installedfile>
+  <id>1358262</id>
+  <releasedate>2023-01-28</releasedate>
+  <summary>Dark plasma theme, with orange and yellow gradient tones.&lt;br />
+&lt;br />
+Otto Konsole color schemes: https://store.kde.org/p/1358261/&lt;br />
+&lt;br />
+Otto Kvantum theme: https://store.kde.org/p/1358260/&lt;br />
+&lt;br />
+Otto Color-schemes: https://store.kde.org/p/1358259/&lt;br />
+&lt;br />
+Otto Aurorae: https://store.kde.org/p/1414937/&lt;br />
+&lt;br />
+Otto wallpaper: https://store.kde.org/p/1358263/</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/43/73/13/1358262/plasma-logo.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/43/73/13/1358262/plasma-logo.jpg</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzQ5MTIyMDUiLCJvIjoiMSIsInMiOiIyNmQ0OTEwODIyMGI0YmVkZjliZTViYjA2Mjk4Mzk2M2Y1MzJjODVkNzY5YjUxMTEzOTEwYmVkMTQ4ZjEwODg3YTY5NjMwOGY2ZWFhZmQ2ODQ4MTlhMzVmMWMzYTU3ZTUwY2FjZTRhN2Y2ZjlmMThhYThkOTY4MTZlZTI0ZjgyMyIsInQiOjE2Nzc5NzI5MjksInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.8OMfQYIhz2N0-8mXNrF13mz3ASXBTiBRjXek6eV5XKA/Otto.tar.gz</payload>
+  <tags>theme,plasma,unix,plasma##majorversion=5,original-product,kde,linux,gplv3</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

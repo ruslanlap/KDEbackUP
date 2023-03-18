@@ -1,0 +1,9 @@
+[General]
+FreeFloating=true
+
+[PlasmaRunnerManager]
+migrated=true
+
+[Plugins]
+katesessionsEnabled=false
+kwinEnabled=false

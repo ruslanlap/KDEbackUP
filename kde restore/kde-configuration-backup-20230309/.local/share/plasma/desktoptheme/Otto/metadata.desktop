@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment[es_ES]=Otto
+Name=Otto
+Name[es_ES]=Otto
+X-KDE-PluginInfo-Author=jomada
+X-KDE-PluginInfo-Category=Plasma Theme
+X-KDE-PluginInfo-Depends=plasma-desktop
+X-KDE-PluginInfo-Email=gicalucejo@gmail.com
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=LGPL
+X-KDE-PluginInfo-Name=Otto
+X-KDE-PluginInfo-Version=2.0
+X-KDE-PluginInfo-Website=
+X-Plasma-API=5.0
+comment=Otto theme

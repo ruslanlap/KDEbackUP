@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="209">
+  <name>Glitch [Burn-My-Windows]</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>schneegans</author>
+  <homepage>https://store.kde.org/p/1972813</homepage>
+  <licence></licence>
+  <version>26</version>
+  <rating>73</rating>
+  <downloads>2941</downloads>
+  <installedfile>/home/manjaro/.local/share/kwin/effects/kwin4_effect_glitch</installedfile>
+  <id>1972813</id>
+  <releasedate>2023-01-14</releasedate>
+  <summary>This is the KWin port of the Glitch effect of the Burn-My-Windows GNOME Shell extension. &lt;a href="https://github.com/Schneegans/Burn-My-Windows#%EF%B8%8F-installation-kwin" target="_blank" rel="nofollow">You can find a list of all Burn-My-Windows effects which are currently available for KWin on...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/img/00/00/67/07/53/1972813/glitch1.gif</preview>
+  <previewBig>https://images.pling.com/img/00/00/67/07/53/1972813/glitch1.gif</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzU1MTMzNTYiLCJvIjoiMSIsInMiOiI0NzY4N2JkNTcyMGFiMDZjYTlmNzcwYTViMjM2NjAwMjA3NWE4OTQxMjAwMWMwZGM0OGU5NDRjMDlkMWY1MDU5MDFiM2MxMzFmOWY1YWFkMDc3ZjVkZTZmZmY3MWE3NDdkN2NmMjMzYTQ2NjEwYTY0MzBkN2UxN2FiYTI2N2VhZCIsInQiOjE2Nzc5ODQ2NzAsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.U5JdfBlAEFbrC4nZymtIn1SAorpZjTpA8FmHkAbYlIs/kwin4-effect-glitch.tar.gz</payload>
+  <tags>gplv3,linux,original-product,unix,animation</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

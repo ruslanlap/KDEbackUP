@@ -1,0 +1,32 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+
+[General]
+Version=202
+ViewPropsTimestamp=2023,3,1,1,47,30.11
+
+[IconsMode]
+PreviewSize=80
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+LVDS-1 Height 1366x768 LVDS-1=532
+LVDS-1 Width 1366x768 LVDS-1=601
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Search]
+Location=Everywhere
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly

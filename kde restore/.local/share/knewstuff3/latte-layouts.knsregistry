@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="417">
+  <name>mcOS Catalina Layout for Latte Dock</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>fkorpsvart</author>
+  <homepage>https://store.kde.org/p/1354011</homepage>
+  <licence></licence>
+  <version>9.0</version>
+  <rating>83</rating>
+  <downloads>35528</downloads>
+  <installedfile>/home/manjaro/.local/share/latte-layouts/mcOS-Catalina-Small .layout.latte</installedfile>
+  <id>1354011</id>
+  <releasedate>2021-01-26</releasedate>
+  <summary>&lt;strong>Latte Dock&lt;/strong>, amazing piece of software very customizable.&lt;br />
+With the possibility of creating both, a top panel and dock, with everything you need to work.&lt;br />
+&lt;br />
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬&lt;br />
+&lt;br />
+It is not...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/50/03/00/1354011/563481bc0d57cec8db65cfc0b3fcedbb458a.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/50/03/00/1354011/563481bc0d57cec8db65cfc0b3fcedbb458a.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MTE2OTk5ODgiLCJvIjoiMSIsInMiOiJmNmQ5ZWJlMDA4NWExYWMxM2RjMGM1ZTVkYmQ5Y2I0N2Y3NmRiYTZhOGZhNmQ3Y2JhMDdiNTc5YjQ0ZTQwYTQ5ODc0OGJlZDczNGJjMThmYjY3MjkwYTgzNzkyNDA0YTQwYzA3YjQ1YTg1OTQ4ZjMzZDhmMDRjZWJhNzkxODRlNiIsInQiOjE2Nzc5NzczODQsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.aE2zZf1sI14g26jvNErVa88n2pH9bouZGwvmWv4gvo0/mcOS-Catalina-Small .layout.latte.zip</payload>
+  <tags>cc-by-sa,catalina,original-product,unix,macos,linux,latte,kde,dock,extension</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="417">
+  <name>mcOS BS Layout for Latte Dock</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>fkorpsvart</author>
+  <homepage>https://store.kde.org/p/1399346</homepage>
+  <licence></licence>
+  <version>8.0</version>
+  <rating>85</rating>
+  <downloads>130467</downloads>
+  <installedfile>/home/manjaro/.local/share/latte-layouts/macOS-BS-Walls/*</installedfile>
+  <id>1399346</id>
+  <releasedate>2023-02-08</releasedate>
+  <summary>&lt;strong>Latte Dock&lt;/strong>, amazing piece of software very customizable.&lt;br />
+With the possibility of creating both, a top panel and dock, with everything you need to work.&lt;br />
+&lt;br />
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬&lt;br />
+&lt;br />
+The new...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/50/03/00/1399346/ec4d746362e51a1c0df306f12b369e56432cc2d2e5b23dd316315e35ebc69eadd3af.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/50/03/00/1399346/ec4d746362e51a1c0df306f12b369e56432cc2d2e5b23dd316315e35ebc69eadd3af.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTM3MTQ3MTgiLCJvIjoiMSIsInMiOiJjYjc2MTRjYWU0MjMxNjI4ZWU0OTk1MDQ4Zjg4Njk4MTgxN2U5MzYwMWRjNmJmM2FkMDhjMTc1MjhlNmE5MjVmNmU1MGYwNGEyMzlkMjNkYzZlMzIyZmNhNTU0YmY5YTVhNzBlYjA5NjhiMWY2MTg4ZDg0NTdkOGJhNzM3MDRiYSIsInQiOjE2Nzc5NzczNjIsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.7JB2sbEi-JUWBgsZcRJYDvaoZSJ-RTKB-w5-5xBnON8/macOS-BS-Walls.zip</payload>
+  <tags>big-sur,cc-by-sa,original-product,plank,unix,latte,latte-dock,dock,kde,extension,linux,macos</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

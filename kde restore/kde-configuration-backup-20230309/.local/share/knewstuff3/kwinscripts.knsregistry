@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="210">
+  <name>Krohnkite</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>esjeon</author>
+  <homepage>https://store.kde.org/p/1281790</homepage>
+  <licence></licence>
+  <version>0.8.2</version>
+  <rating>88</rating>
+  <downloads>22681</downloads>
+  <installedfile>/home/manjaro/.local/share/kwin/scripts/krohnkite</installedfile>
+  <id>1281790</id>
+  <releasedate>2022-02-17</releasedate>
+  <summary>A dynamic tiling extension for KWin.&lt;br />
+&lt;br />
+Kröhnkite is mainly inspired by dwm from suckless folks, and aims to be "simple" in both development and usage.&lt;br />
+&lt;br />
+&lt;br />
+Features&lt;br />
+------------&lt;br />
+ * DWM-like window tiling&lt;br />
+    - Dynamically tile windows, rather than...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/52/02/16/1281790/f8df7179aef439ef3556b25eb4237663a49b1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/52/02/16/1281790/f8df7179aef439ef3556b25eb4237663a49b1.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NDUxMDI2MTciLCJvIjoiMSIsInMiOiIxMDk2MzZlMDQxY2UxNjBhZWYzZWY2Y2U3MjVjY2U5OTMwOGFjOWViNWMxMzliMTA4OWQxZWM0YTA4ZTMxY2FjOWM1NzYyMDM3NTJkZDE3OWMzMjgyNTA0NzBhMTFjZmRmZTY4OWMyMGM2MDFmMTI4ZWNlZjUzYTkyMzhlM2QxYyIsInQiOjE2Nzc5NzE0MDcsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.SysLfq40H8wzZ7Nm1OeCmKzbyPwWxCse--D2PEWJ3DE/krohnkite-0.8.2.kwinscript</payload>
+  <tags>tiling,unix,kwin,linux,original-product,mit-license</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="210">
+  <name>Latte Window Colors</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>Psifidotos</author>
+  <homepage>https://store.kde.org/p/1290287</homepage>
+  <licence></licence>
+  <version>0.2</version>
+  <rating>72</rating>
+  <downloads>146981</downloads>
+  <installedfile>/home/manjaro/.local/share/kwin/scripts/lattewindowcolors</installedfile>
+  <id>1290287</id>
+  <releasedate>2019-03-23</releasedate>
+  <summary>This is a KWin script that sends window colors information to Latte through dbus interface.&lt;br />
+&lt;br />
+&lt;strong>Requires&lt;/strong>&lt;br />
+    Plasma &amp;gt;= 5.15&lt;br />
+    Latte Git version (upcoming v0.9)&lt;br />
+&lt;br />
+&lt;strong>Install&lt;/strong>&lt;br />
+This is a KWin script and as such it can be...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/02/97/22/1290287/1229ac1743d789fd6ba04a734dd3e751074c.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/02/97/22/1290287/1229ac1743d789fd6ba04a734dd3e751074c.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1NTMzMzIwMzQiLCJvIjoiMSIsInMiOiJhN2E5NmViNGZiYjQ0MzUzM2QxM2FmYjY0M2E3YWNhYTE5MjAzODM2ZjY1ZTQwMjdjYTY4ZWM4NWVjODVjYzdmN2U0MWQwYTNkMzUxNjUzOTA4OTllOTlmMDdkMmRkMWQ4ZmZlZjRlZDg0YjYwYjYwY2Q1MmJmYjcyYjcwYjg2MCIsInQiOjE2Nzc5OTIzMTIsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.zEVki5ik56mx1sGjFcfenUZ1ZsRBWh1csBAd44dbEiY/window-colors-0.2.kwinscript</payload>
+  <tags>original-product,colors,latte,kwin,linux,gplv2-later,unix,script</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="210">
+  <name>Move Window to Center</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>artemisfowl2007</author>
+  <homepage>https://store.kde.org/p/1254986</homepage>
+  <licence></licence>
+  <version>1.1</version>
+  <rating>67</rating>
+  <downloads>8092</downloads>
+  <installedfile>/home/manjaro/.local/share/kwin/scripts/movewindowtocenter</installedfile>
+  <id>1254986</id>
+  <releasedate>2020-04-22</releasedate>
+  <summary>A simple KWin script that introduces a KDE Global Shortcut (Meta+C by default) for centering the active window in the current screen.&lt;br />
+&lt;br />
+Check the &lt;a href="https://github.com/KSmanis/kwin-move-window-to-center" target="_blank" rel="nofollow">GitHub page&lt;/a> for installation and usage...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/img/00/00/07/17/88/1254986/22685139dff18b258b8273e45b584b1b0391.gif</preview>
+  <previewBig>https://images.pling.com/img/00/00/07/17/88/1254986/22685139dff18b258b8273e45b584b1b0391.gif</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1ODc1NTEyNzgiLCJvIjoiMSIsInMiOiJjMDY5ODBlMDUxMGFiN2U4NjA4MTU5Yjk3NGNmZjZkMTZiM2ZkNGQ5M2ZjMWQxNDM1MDRjZWYwNWVlNGUxMGM5MzQ0M2Q2OWQzZDNmMDkzYjI4YjBmMjJiYjJhYjM4ZmVkYzJkYTZmNDNkMjBjZmExNjIyMDcyNDQ4ZDE1OTM3YSIsInQiOjE2Nzc5NzU4MTEsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ.2IlZinm5YSYfP1WMd5JO6w0S7bF9ltWrt5njqee6zDc/movewindowtocenter-1.1.kwinscript</payload>
+  <tags>unix,linux,gplv2-later,original-product</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="210">
+  <name>Force Blur</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>esjeon</author>
+  <homepage>https://store.kde.org/p/1294604</homepage>
+  <licence></licence>
+  <version>0.5</version>
+  <rating>90</rating>
+  <downloads>150271</downloads>
+  <installedfile>/home/manjaro/.local/share/kwin/scripts/forceblur</installedfile>
+  <id>1294604</id>
+  <releasedate>2022-02-17</releasedate>
+  <summary>Force-enable blur effect for user-specified windows</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/52/02/16/1294604/25d2a853b8055b383e5ede66db535b5c9a68.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/52/02/16/1294604/25d2a853b8055b383e5ede66db535b5c9a68.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NDUxMDIxMjMiLCJvIjoiMSIsInMiOiJkMTAxZGYyOWFhNDE0YjNmNGEzYTk5NDdhZGUzMzI3ODdlZmQ4MDE1YTZlZmUyM2FjNWFiOGEwN2Q4N2YwYzczYTg0ZDVmYTgyMWFhMjhjYTY5ZDlhNjI1MWExNGNhMjAwM2IwZjExMGVjM2VjNmYyNmM1MWY0NTk2ODA5Nzg4NiIsInQiOjE2Nzc5NzU4NTIsInN0ZnAiOm51bGwsInN0aXAiOiIxNzYuMTIwLjEwNS4yMTgifQ._Lh0b3R7EDADq06LrziNqZHJPQsUBvWzAbtKOzv0tws/forceblur-0.5.kwinscript</payload>
+  <tags>unix,blur,linux,kwin,original-product,mit-license</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>
