@@ -1,0 +1,335 @@
+/* Example userChrome.css file */
+
+/* Import your desired components first */
+
+@import url(chrome/tab_close_button_always_on_hover.css);
+@import url(chrome/tab_loading_progress_throbber.css);
+@import url(chrome/button_effect_scale_onclick.css);
+@import url(chrome/blank_page_background.css);
+@import url(chrome/autohide_menubar.css);
+@import url(chrome/hide_toolbox_top_bottom_borders.css);
+@import url(chrome/vertical_context_navigation.css);
+@import url(chrome/minimal_popup_scrollbars.css);
+@import url(chrome/button_effect_icon_glow.css);
+@import url(chrome/dark_context_menus.css);
+@import url(chrome/dark_additional_windows.css);
+@import url(chrome/dark_checkboxes_and_radios.css);
+@import url(chrome/minimal_text_fields.css);
+@import url(chrome/minimal_toolbarbuttons.css);
+@import url(chrome/urlbar_centered_text.css);
+
+
+
+/* Apply your custom modifications after imports */
+
+:root{
+  --toolbar-bgcolor: rgb(36,44,59) !important;
+  --uc-menu-bkgnd: var(--toolbar-bgcolor);
+  --arrowpanel-background: var(--toolbar-bgcolor) !important;
+  --autocomplete-popup-background: var(--toolbar-bgcolor) !important;
+  --uc-menu-disabled: rgb(90,90,90) !important;
+  --lwt-toolbar-field-focus: rgb(36,44,59) !important;
+}
+
+#sidebar-box{ --sidebar-background-color: var(--toolbar-bgcolor) !important; }
+window.sidebar-panel{ --lwt-sidebar-background-color: rgb(36,44,59) !important; }
+
+/* Set the color of the active tab */
+.tabbrowser-tab[selected="true"] .tab-content {
+/*   background-color: #7576B7 !important; */
+}
+/* Change color of text in tab */
+.tab-label[selected="true"] {
+  color: cyan !important; /* Replace #fff with the color of your choice */
+}
+.tabbrowser-tab[last-visible-tab='true'] {
+  padding-inline-end: 0 !important;
+}@namespace "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
+
+@-moz-document url("chrome://browser/content/browser.xul") {
+    #urlbar:not([focused]) .urlbar-input-box {
+        text-align: center;
+    }
+}/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/tab_animated_active_border.css made available under Mozilla Public License v. 2.0
+See the above repository for updates as well as full license text. */
+
+/* Creates a colorful animated border around active tab */
+
+@keyframes filter{from{ filter: hue-rotate(0deg) } to { filter: hue-rotate(360deg) }}
+
+.tabbrowser-tab[selected] > .tab-stack::before{
+  grid-area: 1/1;
+  content: "";
+  display: inherit;
+  margin-block: var(--tab-block-margin);
+  border-radius: var(--tab-border-radius);
+  z-index: 0;
+  background-image: conic-gradient(
+    hsl(0 100% 70%),
+    hsl(60 100% 45%) 70deg,
+    hsl(120 100% 55%) 105deg,
+    hsl(160 100% 60%) 160deg,
+    hsl(200 100% 60%) 200deg,
+    hsl(240 100% 65%) 255deg,
+    hsl(300 100% 60%) 290deg,
+    hsl(360 100% 70%) 360deg);
+  background-size: cover;
+  background-position: center;
+  animation: filter steps(30) 2s infinite;
+}
+.tab-background[selected]{
+  border: 1px solid transparent !important;
+  outline: none !important;
+  background-clip: padding-box !important;
+}/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/non_floating_sharp_tabs.css made available under Mozilla Public License v. 2.0
+See the above repository for updates as well as full license text. */
+
+/* This style makes tabs and related items non-rounded and connects tabs to toolbars like in previous Firefox versions.
+ * You should set layout.css.color-mix.enabled to true in about:config to make colors apply properly.
+ * It's not strictly a requirement, but this style expects compact_proton.css to be loaded before it. */
+
+:root[id]{
+  --tab-block-margin: 0px !important;
+  --tabs-shadow-size: 1px !important;
+
+  /* Remove next line if you want selected tab to have color other than toolbar background - then it follows your theme color  */
+  --lwt-selected-tab-background-color: var(--toolbar-bgcolor) !important;
+}
+
+/* Uncomment next line to force specific color for tab top line */
+/* #tabbrowser-tabs{ --lwt-tab-line-color: blue !important; } */
+
+/* These next two rules set a color for border around tabs and between tabs & navigation toolbars. Set to transparent to remove the border.*/
+#nav-bar{
+  /* This overrides value in compact_proton.css */
+  box-shadow: 0 -1px 0 0 color-mix(in srgb, currentcolor 30%, transparent) !important;
+}
+.tab-background[selected]{
+  border-inline: 1px solid color-mix(in srgb, currentcolor 30%, transparent) !important;
+  border-bottom-color: transparent !important;
+}
+
+#TabsToolbar{
+  --toolbarbutton-inner-padding: 7px !important;
+}
+/* Few exceptions for default light theme */
+#navigator-toolbox:not([movingtab]):-moz-lwtheme > #titlebar > #TabsToolbar{
+  --toolbar-bgcolor: transparent;
+}
+
+.tab-background[selected]:not(:-moz-lwtheme){ background: var(--toolbar-bgcolor) !important; }
+
+#TabsToolbar-customization-target > .toolbarbutton-1 > .toolbarbutton-badge-stack,
+#TabsToolbar-customization-target > .toolbarbutton-1 > .toolbarbutton-icon{ border-radius: 2px !important;  }
+
+/* tabs newtab button needs some special styling... */
+#tabs-newtab-button{
+  padding-inline: 0 !important;
+  -moz-box-align: stretch !important; /* Fx < 112 compatibility */
+  align-items: stretch !important;
+}
+/* We draw the icon as background-image to get correct scaling regardless of toolbar height */
+#tabs-newtab-button > .toolbarbutton-icon{
+  border-radius: 0 !important;
+  width: var(--tab-min-height) !important;
+  height: initial !important;
+  list-style-image: none;
+  background-image: url(chrome://global/skin/icons/plus.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#scrollbutton-up,
+#scrollbutton-down{
+  border-radius: 0 !important;
+  border-width: 0 !important;
+  padding-inline: 3px !important;
+  margin-bottom: var(--uc-compat-scrollbutton-margin,0px) !important; /* set in hide_tabs_scrollbuttons.css */
+}
+
+/* This is for hide_tabs_scrollbuttons.css compatibility since we modify scrollbutton width */
+#tabbrowser-tabs[overflow]{
+  --uc-scrollbox-base-margin: -22px !important;
+}
+
+/* Selected tab needs to be relative so it gets drawn over nav-bar top "border" */
+.tabbrowser-tab[selected]{
+  position: relative;
+  z-index: 1;
+}
+
+/* tab shaping */
+.tabbrowser-tab{ padding-inline: 0 !important; }
+
+:root[uidensity="compact"] #tabbrowser-tabs[positionpinnedtabs] .tabbrowser-tab[pinned]{
+  min-height: calc(var(--tab-min-height) + 2px) !important;
+}
+
+.tab-content[pinned]{ padding-inline: 11px !important; }
+
+.tab-background{
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  border-top: 0 !important;
+  outline: none !important;
+}
+
+.tab-background:not([selected])[multiselected]{
+  background: color-mix(in srgb, currentColor 11%, transparent) !important;
+  margin-inline-start: -1px;
+}
+
+/* Line to mark selected tab */
+.tab-background[selected]::before,
+.tabbrowser-tab:hover > stack > .tab-background::before{
+  display: flex;
+  height: 2px;
+  content: "";
+}
+.tab-stack:hover > .tab-background::before{
+  background-color: inherit;
+}
+.tab-stack > .tab-background[selected]::before{
+  background-color: highlight;
+  background-image: linear-gradient(var(--lwt-tab-line-color),var(--lwt-tab-line-color));
+}
+/* Photon-like tab on hover animation for the top line */
+@keyframes tab-onhover-line-anim{ from{ margin-inline: 20px } to { margin-inline: 0 } }
+
+.tab-stack:hover > .tab-background::before{ animation: tab-onhover-line-anim 160ms }
+
+/* Disable animation for selected and pinned tabs */
+.tabbrowser-tab:is([pinned],[selected]) > .tab-stack > .tab-background::before{ animation: none }
+
+/* moves context-line to the bottom */
+.tab-context-line{
+  -moz-box-ordinal-group: 2; /* Fx < 112 compatibility */
+  order: 2;
+  margin-inline: 10px !important;
+}/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/click_selected_tab_to_focus_urlbar.css made available under Mozilla Public License v. 2.0
+See the above repository for updates as well as full license text. */
+
+/* Clicking selected tab selects focuses urlbar */
+/* Selected tab cannot be normally clicked (right-,middle- or left-clicked) EXCEPT from the tab icon */
+
+/* Clicking selected pinned tab doesn't focus urlbar by default since I expect you might not want to change pinned tab address - see below */
+
+
+/* Make selected tab unclickable so click goes to the capture box, obviously it can't be clicked at all anymore */
+/* remove the :not([pinned]) bit to make clicking pinned tab AROUND the tab-icon focus urlbar*/
+
+.tabbrowser-tab:not([pinned])[selected]{ pointer-events: none }
+
+/* Add back pointer-events to several elements so UI remains usable */
+/* The selected tab can be clicked normally from the icon */
+#TabsToolbar toolbarbutton,
+#TabsToolbar toolbaritem,
+.tabbrowser-tab,
+.tab-close-button,
+.tab-icon-stack{
+  pointer-events: auto
+}
+
+/* Invisible capture box behind tabs*/
+:root:not([customizing]) #urlbar-input-container::before{
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: calc(100vw - 138px);
+  height: calc(var(--tab-min-height) + 2*var(--tab-block-margin));
+  content: "";
+  pointer-events: auto;
+}
+:root[sizemode="normal"]:not([customizing]) #urlbar-input-container::before{ left: 40px; width: calc(100vw - 138px -80px) }
+
+#urlbar-input-container:focus-within::before{ display: none !important; }
+
+/* Make tabs appear over the invisible box */
+:root:not([customizing]) #TabsToolbar-customization-target{
+  position: relative;
+  z-index: 1;
+  pointer-events: none
+}
+}/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/numbered_tabs.css made available under Mozilla Public License v. 2.0
+See the above repository for updates as well as full license text. */
+
+/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/numbered_tabs.css made available under Mozilla Public License v. 2.0
+See the above repository for updates as well as full license text. */
+
+/* Show a number before tab text*/
+
+.tabbrowser-tab:first-child{ counter-reset: nth-tab 0 } /* Change to -1 for 0-indexing */
+.tab-text::before{ content: counter(nth-tab) " "; counter-increment: nth-tab }
+
+/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/centered_tab_label.css made available under Mozilla Public License v. 2.0
+See the above repository for updates as well as full license text. */
+
+.tab-label-container{
+  display: grid;
+  justify-content: safe center; /* Fx <112 compatibility */
+  align-items: safe center; /* Fx <112 compatibility */
+  align-content: center;
+}
+
+.tab-secondary-label{
+  -moz-box-pack: center; /* Fx <112 compatibility */
+  justify-content: center;
+}
+
+.tab-label,
+.tab-secondary-label{ overflow: hidden }
+
+.tabbrowser-tab[selected]:not(:hover) .tab-label-container:not([labeldirection="rtl"]),
+#tabbrowser-tabs:not([closebuttons="activetab"]) .tabbrowser-tab:not(:hover,[pinned]) .tab-label-container:not([labeldirection="rtl"]){
+  margin-inline-end: 7px;
+}
+
+/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/tab_loading_progress_bar.css made available under Mozilla Public License v. 2.0
+See the above repository for updates as well as full license text. */
+
+/* This style creates a fake loading progress bar to the bottom of a tab as a replacement for normal loading throbber */
+
+@keyframes tab-loading-line-anim{ from{ background-size: 0% } to { background-size: 20% } }
+.tab-background::after{
+    background-size: 90%;
+}
+.tabbrowser-tab:is([busy],[bursting]) > .tab-stack > .tab-background::after{
+  content: "";
+  display: flex;
+  height: 2px;
+  background-color:transparent;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(currentColor,currentColor);
+  transition: background-size 80ms ease-out;
+}
+.tabbrowser-tab[busy]:not([progress],[bursting]) > .tab-stack > .tab-background::after{
+  animation: tab-loading-line-anim 80ms ease;
+  background-size: 20%;
+  opacity: 0.5;
+}
+.tabbrowser-tab[busy][progress] > .tab-stack > .tab-background::after{
+  transition-duration: 2000ms;
+}
+.tabbrowser-tab[bursting] > .tab-stack > .tab-background::after{
+  transition: background-size 80ms ease-out, opacity 80ms linear;
+  background-size: 100%;
+  opacity: 0;
+}
+.tab-throbber{ display: none !important; }
+.tab-icon-image[src]{ display: block !important; }
+
+
+/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/numbered_tabs.css made available under Mozilla Public License v. 2.0
+See the above repository for updates as well as full license text. */
+
+/* Show a number before tab text*/
+
+.tabbrowser-tab:first-child{ counter-reset: nth-tab 0 } /* Change to -1 for 0-indexing */
+.tab-text::before{ content: counter(nth-tab) " "; counter-increment: nth-tab }
+
+/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/tabs_fill_available_width.css made available under Mozilla Public License v. 2.0
+See the above repository for updates as well as full license text. */
+
+/* Why 100vw? Tab closing requires width animation to end and "none" can't be animated */
+.tabbrowser-tab[fadein]:not([style^="max-width"]){ max-width: 100vw !important }
